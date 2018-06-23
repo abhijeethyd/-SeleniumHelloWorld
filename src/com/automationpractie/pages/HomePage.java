@@ -10,6 +10,7 @@ public class HomePage {
 	
 	WebDriver driver;
 	By signin = By.className("login");
+	By pwd = By.className("hi");
 	
 	
 	//Constructor to accept driver 

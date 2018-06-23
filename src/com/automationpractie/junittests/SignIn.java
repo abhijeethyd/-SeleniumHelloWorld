@@ -27,9 +27,8 @@ public class SignIn {
 		//System.setProperty("webdriver.gecko.driver", "c:/lps/seleniumjars/geckodriver.exe");
 		//driver = new FirefoxDriver() ;
 		
-		System.setProperty("webdriver.chrome.driver", "c:/lps/seleniumjars/chromedriver.exe");
-		driver = new ChromeDriver() ;
-		
+		System.setProperty("webdriver.chrome.driver", "c:/Trainings/chromedriver.exe");
+		driver = new ChromeDriver() ;		
 		driver.manage().timeouts().implicitlyWait(300 , TimeUnit.SECONDS);				 
 		driver.get("http://automationpractice.com");
 

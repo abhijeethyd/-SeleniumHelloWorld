@@ -10,7 +10,7 @@ public class PageObjectRunner {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.gecko.driver", "c:/lps/seleniumjars/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "c:/Trainings/geckodriver.exe");
 		WebDriver driver = new FirefoxDriver() ;
 		
 		driver.get("http://automationpractice.com");
